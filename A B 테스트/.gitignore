@@ -1,0 +1,6 @@
+# 중복 데이터 (캐글 원본 압축)
+archive/
+archive.zip
+
+# 주피터 자동 저장 폴더
+.ipynb_checkpoints/
