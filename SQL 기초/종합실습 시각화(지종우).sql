@@ -15,7 +15,7 @@ FROM `my-project-jkevin72`.modul.orders
 WHERE status IN ('Paid', 'Shipped')
 GROUP BY status;
 
--- 질문 3. 차트 3. 월별 매출 추이 (선 / 측정기준 order_month / 측정항목 sales)
+-- 차트 3. 월별 매출 추이 (선 / 측정기준 order_month / 측정항목 sales)
 
 SELECT
   FORMAT_DATE('%Y-%m', order_date) AS order_month,
